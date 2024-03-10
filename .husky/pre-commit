@@ -1,0 +1,4 @@
+pnpm lint || {
+  echo "Lint check failed"
+  exit 1
+}
